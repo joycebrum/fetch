@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
+## [3.6.20](https://github.com/joycebrum/fetch/compare/v3.6.19...v3.6.20) (2023-09-25)
+
+
+### Bug Fixes
+
+* Have unique error messages for xhr timeouts and errors ([#1380](https://github.com/joycebrum/fetch/issues/1380)) ([7170f0b](https://github.com/joycebrum/fetch/commit/7170f0b127d16c5895aba61c9168482834809046))
+* Headers only accepts array which have nested array of length 2 ([f7e3e92](https://github.com/joycebrum/fetch/commit/f7e3e92058415278338d8eb15dc6f107da8dffd7))
+* ignore not throw on invalid response headers ([9a6d748](https://github.com/joycebrum/fetch/commit/9a6d748b394a2c16b250262fcaf46afd5364b415)), closes [#930](https://github.com/joycebrum/fetch/issues/930)
+* when no body supplied, do not set bodyUsed to true ([7d92dff](https://github.com/joycebrum/fetch/commit/7d92dff12d7c4058b57c7e77adeb0a76ffab639f))
+
 ## [3.6.19](https://github.com/JakeChampion/fetch/compare/v3.6.18...v3.6.19) (2023-09-11)
 
 
